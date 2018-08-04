@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import uuid from 'uuid';
 import { stub } from 'sinon';
-import { Response, ErrorResponse } from '../lib/index';
+import { Response, ErrorResponse } from '../src/index';
 
 describe('Response', () => {
   it('Set content and get response', () => {
